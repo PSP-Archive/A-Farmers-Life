@@ -1,0 +1,17 @@
+[TITLE]
+Version = Beta vE
+
+//Cursor = image|default x|default y|width, 0 for image width|height, 0 for image height|
+Cursor = cursor.png|130|119|0|0|
+
+BGImage = titlescreen.png
+OPImage = titlescreen_buttons.png
+
+Bgm = Intro.ogg
+
+//Option# = id|x|y|width|height|highlight sound|click sound|
+Option = 0|190|109|100|20|PlaySE(highlight.wav, asd):|PlaySE(click.wav):Teleport(1):|
+Option = 1|190|131|100|20|PlaySE(highlight.wav):|PlaySE(click.wav):Teleport(-1):|
+Option = 2|190|153|100|20|PlaySE(highlight.wav):|PlaySE(click.wav):Teleport(-2):|
+
+[/TITLE]

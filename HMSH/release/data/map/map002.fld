@@ -1,0 +1,61 @@
+[MAP]
+Name = 2nd map biatch!
+Image = map.png
+
+Bgm = Title.ogg
+
+//One tile's width and height
+TileWidth = 16
+TileHeight = 16
+
+//Start X and Y value
+StartX = 0
+StartY = 0
+
+//1 tile, 16px - 30 tiles, 480px
+Width = 10
+//1 tile, 16px - 17 tiles, 272px
+Height = 16
+
+Objects = 2
+
+
+Data = 00000000000000000000
+00000000000000000000
+00000000000000000000
+00000000000000000000
+00000000000000000000
+00000000000000000000
+00000000000000000000
+00000000000000000000
+00000000000000000000
+00000000000000000000
+00000000000000000000
+00000000000000000000
+00000000000000000000
+00000000000000000000
+00000000000000000000
+00000000000000000000
+
+[/MAP]
+
+[OBJECT1]
+//Object name, used in the messagebox
+Name = Wise Man
+
+//Image path, from the objects folder
+Image = character.png
+
+//Num of walking frames, usually 3
+Frames = 3
+
+//Default movement  speed|move frames|loop?
+Movement = 1|0|1
+
+//Default object direction 0 = down, 1 = left, 2 = right, 3 = up
+Direction = 0
+
+//Interaction function, look at the documentation for more info
+Interaction = Messagebox("Just testing")
+
+[/OBJECT1]

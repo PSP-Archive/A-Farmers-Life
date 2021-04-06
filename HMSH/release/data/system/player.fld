@@ -1,0 +1,6 @@
+[Player]
+Image = player.png
+
+//Start = start map id >1|start x|start y|
+Start = 1|15|13
+[/Player]
